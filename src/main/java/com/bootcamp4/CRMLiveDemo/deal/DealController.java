@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "api/v1/deal")
+@CrossOrigin
 public class DealController {
 
     private final DealService dealService;

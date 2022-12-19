@@ -24,7 +24,7 @@ public class DealConfig {
             Company ggmnasium = new Company("GGmnasium", "https://ggmnasium.com", "Avenida De la Borbolla", "LOL");
 
             Deal metaverse_app = new Deal("App in the Metaverse", LocalDate.now(), 1500.00, Deal.DealStatus.LEAD, david, cima);
-            Deal lol_app = new Deal("LOL Analytics", LocalDate.now(), 500.00, Deal.DealStatus.LEAD, miguel, ggmnasium);
+            Deal lol_app = new Deal("LOL Analytics", LocalDate.now(), 500.00, Deal.DealStatus.NEGOTIATION, miguel, ggmnasium);
 
             Activity mail_activity = new Activity(LocalDate.now(), "This is a mail Activity", Activity.ActivityType.MAIL);
             Activity phone_activity = new Activity(LocalDate.now(), "This is a mail Activity", Activity.ActivityType.CALL);
